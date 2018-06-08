@@ -5,7 +5,7 @@ from django.db import models
 class Question(models.Model):
     # Model is the Question
     # question_text and pub_date are the fields or values
-    question_text = models.CharField(max_length = 100)
+    question_text = models.CharField(max_length=100)
     pub_date = models.DateTimeField('date published')
 
     # returns the question text instead of the object
